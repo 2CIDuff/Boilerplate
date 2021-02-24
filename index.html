@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="css/customized.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/59db27d8b6.js"></script>
+    <script src="script/layout.js"></script>
+    <title>Template</title>
+</head>
+<!--  template name HEADER  -->
+<header>
+    <div id="top-header">
+        <div id="top-header-container" class="grid-container">
+            <div class="top-header-left">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="top-header-middle">
+            </div>
+            <div class="top-header-right">
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div id="header-container" class="grid-container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="/"><img src="css/images/logo.png" width="146" height="31" alt="METADATA COMPANY"></a>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="header-search">
+                    <label class="hidden" for="SearchValue">Search</label>
+                    <input id="SearchValue" name="SearchValue" type="text" onkeypress="submitsearch(event);" placeholder="">
+                    <button onclick="goSearch();" type="button"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="header-right">
+                <div id="accountnav">
+                    <div id="loggedinas" style="display: none; visibility: hidden"></div>
+                    <ul>
+                        <li><a style="padding-right: 0" href="/viewcart.aspx"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart (<viewcartquantitysummary></viewcartquantitysummary>)</a></li>
+                        <li><a style="border: 0" href="javascript:void(0)"><i class="fa fa-lock" aria-hidden="true"></i> My Account</a>
+                            <ul>
+                                <li id="login"><a href="/login.aspx" rel="nofollow">Login</a></li>
+                                <li id="viewAccountLink" style="display: none;"><a href="/modifyaccount.aspx" rel="nofollow">View Account</a></li>
+                                <li id="logoutLink" style="display: none;"><a href="/homepage.aspx?logout=true" rel="nofollow">Logout</a></li>
+                                <li id="registerlink"><a href="/createaccount.aspx" rel="nofollow">Register</a></li>
+                                <li><a href="/favorites.aspx" rel="nofollow">Favorites</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <div class="header-phone">
+                        <a href="tel:888-888-8888"><i class="fa fa-phone fa-lg"></i> 888-888-8888</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="mainnav">
+        <nav id="mainnav-container" class="grid-container">
+            <ul>
+                <li><a href="/living-room.inc">Living</a></li>
+                <li><a href="/dining-room.inc">Dining</a></li>
+                <li><a href="/bedroom.inc">Bedroom</a></li>
+                <li><a href="/mattresses/">Mattresses</a></li>
+                <li><a href="/home-office.inc">Office</a></li>
+                <li><a href="/entertainment.inc">Media</a></li>
+                <li><a href="/accessories.inc">Accents</a></li>
+                <li><a href="">Outlet</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--  END HEADER  -->
+<!-- template name HOMEPAGE  -->
+<main>
+    <section>
+    </section>
+    <section>
+    </section>
+</main>
+<!-- END HOMEPAGE  -->
+<!--  template name FOOTER  -->
+<footer>
+    <div id="footer">
+        <div id="footer-container" class="grid-container">
+            <div class="footer-left">
+            </div>
+            <div class="footer-middle">
+            </div>
+            <div class="footer-right">
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <p>&copy; <script>
+            document.write(new Date().getFullYear())
+            </script> METADATA COMPANY | Powered by OmniVue&reg; - <a href="https://www.microdinc.com?utm_source=customer&amp;utm_medium=referral" target="_blank" rel="nofollow">www.microdinc.com</a> | <a href="/visual-site-map.inc">Site Map</a></p>
+    </div>
+    <div id="scroll-div">
+        <a href="javascript:void(0)" class="scroll-to-top"><i class="fa fa-chevron-circle-up fa-3x"><span class="hidden">Back to Top</span></i></a>
+    </div>
+    </div>
+</footer>
+<!-- END FOOTER  -->
+<script>
+AOS.init();
+$(document).ready(function() {
+
+
+});
+
+// change hampurger to x on click
+$(document).ready(function() {
+    $('#nav-icon').click(function() {
+        $(this).toggleClass('open');
+        $('#mainnav').toggle('slow');
+    });
+});
+
+//Check to see if the window is top if not then display button
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('.scroll-to-top').fadeIn();
+    } else {
+        $('.scroll-to-top').fadeOut();
+    }
+});
+
+//Click event to scroll to top
+$('.scroll-to-top').click(function() {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+    return false;
+});
+</script>
